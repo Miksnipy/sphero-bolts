@@ -24,6 +24,7 @@ await roll(30, 90, 1);
 await delay(1);
 setMainLed({ r: 255, g: 0, b: 255 });
 await delay(1);
+await scrollMatrixText('End!', { r: 10, g: 255, b: 10 }, 20, true);
 
 }
 
