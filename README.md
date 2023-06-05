@@ -20,6 +20,10 @@ await delay(1);
 await roll(350, 40, 1.45);
 await delay(1);
 await Sound.Animal.play(true);
+await roll(30, 90, 1);
+await delay(1);
+setMainLed({ r: 255, g: 0, b: 255 });
+await delay(1);
 
 }
 
